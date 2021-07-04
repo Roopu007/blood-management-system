@@ -1,0 +1,22 @@
+html{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav a{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+nav li a {
+    color: black;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+nav li a.selected {
+    background-color: rgba(84, 212, 81, 0.4);
+}
+
+nav li a:hover {
+    background-color: rgba(84, 212, 81, 0.7);
+}

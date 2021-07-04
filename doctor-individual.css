@@ -1,0 +1,37 @@
+.doctor-name{
+    color: #54D451;
+    font-weight: bold;
+}
+
+.ellipse{
+    margin-top: 6px;
+   margin-right: 10px;
+}
+
+ .heading{
+    margin-top: 5px;
+}
+
+.doc-spec{
+    margin-bottom: 0;
+}
+
+.feedback{
+    font-size: 22px;
+}
+
+.tabs .indicator {
+
+    background-color: #54D451;
+
+}
+
+.tabs .tab a:focus {
+    background-color:white !important;
+ 
+}
+
+.time-box{
+    border:2px solid #54D451;
+}
+

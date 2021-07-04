@@ -1,0 +1,81 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Insurance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/insurance.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="white">
+            <div class="nav-wrapper row" style="width: 90%;">
+                <div class="col l2" style="padding-top: 1rem;">
+                    <a href="index.html"><img src="images/title-logo.png" class="responsive-img"></a>
+                </div>
+                <div class="col l8">
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="bookapp.html">Book Appointment</a></li>
+                        <li><a href="buymed.html">Buy Medicines</a></li>
+                        <li><a href="labtest.html">Book Lab Tests</a></li>
+                        <li><a href="#" class="selected">Health Insurance</a></li>
+                    </ul>
+                </div>
+                <div class="col l2">
+                    <a href="#" style="font-weight: 500; color: #33ac31;"><i
+                            class="material-icons left">login</i>Login</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--BODY-->
+
+    <div class="row" style="margin-top: 1rem; margin-left: 5rem;">
+        <div class="col l11 green-text">
+            <p style="font-size: 3rem; margin-bottom: 0;">Search for health insurance plans</p>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 0.6rem; margin-left: 5rem; margin-bottom:0.3rem;width: 90%;">
+        <div class="col l3 input-field">
+            <i class="material-icons prefix">location_on</i>
+            <input type="text" id="location">
+            <label for="location">Location</label>
+        </div>
+        <div class="col l7 input-field">
+            <i class="material-icons prefix">search</i>
+            <input type="text" id="name">
+            <label for="name">Name</label>
+        </div>
+        <div class="col l2 center-align" style="padding-top: 1.5rem;">
+            <a class="btn green white-text z-depth-0 waves-effect waves-light" style="width: 100%;">Search</a>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 1rem;">
+        <div class="col l4" style="margin-left: 5rem;">
+            <img src="images/image 2.png">
+        </div>
+        <div class="col l5 offset-l2 grey-text text-darken-3"
+            style="margin-top: 7rem; font-weight: 500;font-size: 2rem;">
+            Stay Stress-free With The Best Insurance Plans
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $('document').ready(function () {
+            $('select').formSelect();
+        })
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,357 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/search-results.css">
+    <link rel="stylesheet" href="doctor-individual.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <nav class="white">
+        <div class="nav-wrapper row" style="width: 80%;">
+            <div class="col l1">
+                <a href="index.html"><img src="images/logo.jpeg" class="responsive-img circle"></a>
+            </div>
+            <div class="col l8">
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="bookapp.html" class="selected">Book Appointment</a></li>
+                    <li><a href="buymed.html">Buy Medicines</a></li>
+                    <li><a href="labtest.html">Book Lab Tests</a></li>
+                    <li><a href="insurance.html">Health Insurance</a></li>
+                </ul>
+            </div>
+            <div class="col l3">
+                <a href="#" style="font-weight: 500; color: #33ac31;"><i class="material-icons left">login</i>Login</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- BODY -->
+    <div class="row" style="margin-top: 0.6rem; margin-left: 5rem; margin-bottom:0.3rem;width: 90%;">
+        <div class="col l2 input-field">
+            <i class="material-icons prefix">location_on</i>
+            <input type="text" id="location">
+            <label for="location">Location</label>
+        </div>
+        <div class="col l2 input-field">
+            <select>
+                <option value="doctor">Doctor</option>
+                <option value="hospital">Hospital</option>
+            </select>
+        </div>
+        <div class="col l3 input-field">
+            <i class="material-icons prefix">search</i>
+            <input type="text" id="name">
+            <label for="name">Name</label>
+        </div>
+        <div class="col l1" style="padding-top: 1.5rem">
+            <button class="btn btn-small green white-text z-depth-0">Search</button>
+        </div>
+        <div class="col l4 right-align grey-text text-darken-3"
+            style="margin-top: 1.5rem; font-weight: 500;font-size: 1.2rem;">
+            Get Connected To Qualified And Specilized Doctors
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col l6">
+                <div class="row">
+                    <div class="col l3">
+                        <img src="images/doctor.jpg" class="responsive-img circle">
+                    </div>
+                    <div class="col l7">
+                        <span style="color: #54D451;font-weight: bold; font-size: 1.3rem;">Doctor's Name </span>
+                        <br>
+                        <span class="grey-text text-darken-1" style="font-weight: 500;font-size: 1rem;">Dentist
+                            &#8226; MBBS</span>
+                        <br>
+                        <span class="grey-text text-darken-1" style="font-weight: 500;font-size: 1rem;">3 Years of
+                            Experience</span>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-tabs" style="padding: 0rem 1.5rem;">
+                        <ul class="tabs tabs-fixed-width">
+                            <li class="tab"><a class="active green-text" href="#test1">Info</a></li>
+                            <li class="tab"><a href="#test2" class="green-text">Clinic Details</a></li>
+                            <li class="tab"><a href="#test3" class="green-text">Feedback</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-content">
+                        <div id="test1">
+                            <div class="card-tabs" style="padding: 0rem 1rem;">
+                                <ul class="tabs tabs-fixed-width">
+                                    <li class="tab"><a class="active green-text" href="#test4">Specializations</a></li>
+                                    <li class="tab"><a href="#test5" class="green-text">Educations</a></li>
+                                    <li class="tab"><a href="#test6" class="green-text">Awards</a></li>
+                                </ul>
+                            </div>
+                            <div class="card-content">
+                                <div id="test4">Test 1</div>
+                                <div id="test5">Test 2</div>
+                                <div id="test6">Test 3</div>
+                            </div>
+                        </div>
+                        <div id="test2">Test 2</div>
+                        <div id="test3">Test 3</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col l6">
+                <div class="card">
+                    <span class="card-title">
+                        <h5 class="center green-text" style="font-weight: bold;padding-top: 1rem; margin-top: 0;">Book
+                            Apppointment
+                        </h5>
+                    </span>
+
+                    <div class="card-tabs" style="padding: 0rem 1.5rem;">
+                        <ul class="tabs tabs-fixed-width">
+                            <li class="tab"><a href="#test7" class="green-text">Online</a></li>
+                            <li class="tab"><a href="#test8" class="green-text">In Person</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-content ">
+                        <div id="test7">
+                            <div class="row">
+                                <div class="col l6">
+                                    <select>
+                                        <option value="date1" style="color:green !important;">22 December</option>
+                                        <option value="date2" style="color:green !important">23 December</option>
+                                    </select>
+
+                                </div>
+                                <div class="col l6">
+                                    <select>
+                                        <option value="date1" style="color:green !important;">Select Clinic</option>
+                                        <option value="date2" style="color:green !important">dentist Clinic</option>
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col l3">
+                                    <h6 class="green-text">Morning</h6>
+                                </div>
+                                <div class="col l3">
+                                    <div class="time-box" style="">
+                                        <h6 class="center green-text">11:30 AM</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col l3">
+                                    <h6 class="green-text">Afternoon</h6>
+                                </div>
+                                <div class="col l3">
+                                    <div class="time-box" style="">
+                                        <h6 class="center green-text">1:30 PM</h6>
+                                    </div>
+
+                                </div>
+                                <div class="col l3">
+                                    <div class="time-box" style="">
+                                        <h6 class="center green-text">2:30 PM</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col l3">
+                                    <h6 class="green-text">Evening</h6>
+                                </div>
+                                <div class="col l3">
+                                    <div class="time-box" style="">
+                                        <h6 class="center green-text">5:30 PM</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col l3">
+                                    <h6 class="green-text">Night</h6>
+                                </div>
+                                <div class="col l3">
+                                    <div class="time-box" style="">
+                                        <h6 class="center green-text">7:30 PM</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col l1">
+                                    <h6><img src="images/ellipse2.png" alt="" style="padding:3px 0px 0px 3px;"></h6>
+                                </div>
+                                <div class="col l9">
+                                    <h6>Booking Appointment For Myself</h6>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <form action="">
+                                    <div class="row">
+                                        <div class="input-field " style=" width: 70%; margin:auto">
+                                            <input id="form-name" type="text" class="validate" style="">
+                                            <label for="form-name">Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field " style=" width: 70%; margin:auto">
+                                            <input id="form-number" type="text" class="validate" style="">
+                                            <label for="form-number">Number</label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="row">
+                                <h6 class="green-text center" style="font-weight: 600;">Consultation Fees: 500 Euros
+                                </h6>
+                            </div>
+                            <div class="row center">
+                                <button class="btn outline z-depth-0 ">Confirm
+                                    Appointment</button>
+                            </div>
+                        </div>
+                        <div id="test8">
+                            <div class="row">
+                                <div class="col l6">
+                                    <select>
+                                        <option value="doctor" style="color:green !important;">22 December</option>
+                                        <option value="hospital" style="color:green !important">23 December</option>
+                                    </select>
+
+                                </div>
+                                <div class="col l6">
+                                    <select>
+                                        <option value="doctor" style="color:green !important;">select clinic</option>
+                                        <option value="hospital" style="color:green !important">eyes clinic</option>
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col l3">
+                                    <h6 class="green-text">Morning</h6>
+                                </div>
+                                <div class="col l3">
+                                    <div class="time-box" style="">
+                                        <h6 class="center green-text">11:30 AM</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col l3">
+                                    <h6 class="green-text">Afternoon</h6>
+                                </div>
+                                <div class="col l3">
+                                    <div class="time-box" style="">
+                                        <h6 class="center green-text">1:30 PM</h6>
+                                    </div>
+
+                                </div>
+                                <div class="col l3">
+                                    <div class="time-box" style="">
+                                        <h6 class="center green-text">2:30 PM</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col l3">
+                                    <h6 class="green-text">Evening</h6>
+                                </div>
+                                <div class="col l3">
+                                    <div class="time-box" style="">
+                                        <h6 class="center green-text">5:30 PM</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col l3">
+                                    <h6 class="green-text">Night</h6>
+                                </div>
+                                <div class="col l3">
+                                    <div class="time-box" style="">
+                                        <h6 class="center green-text">7:30 PM</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col l1">
+                                    <h6><img src="images/ellipse2.png" alt="" style="padding:3px 0px 0px 3px;"></h6>
+                                </div>
+                                <div class="col l9">
+                                    <h6>Booking Appointment For Myself</h6>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <form action="">
+                                    <div class="row">
+                                        <div class="input-field " style=" width: 70%; margin:auto">
+                                            <input id="form-name" type="text" class="validate" style="">
+                                            <label for="form-name">Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field " style=" width: 70%; margin:auto">
+                                            <input id="form-number" type="text" class="validate" style="">
+                                            <label for="form-number">Number</label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="row">
+                                <h6 class="green-text center" style="font-weight: 600;">Consultation Fees: 500 Euros
+                                </h6>
+                            </div>
+                            <div class="row center">
+                                <button class="btn outline z-depth-0 ">Confirm
+                                    Appointment</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+
+        $(document).ready(function () {
+            $('.tabs').tabs();
+        });
+    </script>
+</body>
+
+</html>

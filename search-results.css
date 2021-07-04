@@ -1,0 +1,44 @@
+html{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav a{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+nav li a {
+    color: black;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+nav li a.selected {
+    background-color: rgba(84, 212, 81, 0.4);
+}
+
+nav li a:hover {
+    background-color: rgba(84, 212, 81, 0.7);
+}
+
+.outline {
+    background-color: white;
+    color: #66b159;
+    border: 1px solid #66b159;
+}
+
+.outline:hover {
+    background-color: #66b159;
+    color: white;
+    border: 1px solid white;
+}
+
+.outline:focus {
+    background-color: white;
+    color: #66b159;
+    border: 1px solid #66b159;
+}
